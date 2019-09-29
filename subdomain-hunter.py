@@ -54,5 +54,5 @@ if __name__ == "__main__":
     censys_id = ""
     censys_secret = ""
     domain = raw_input("Enter the domain:")
-    start= raw_input("Enter the start time with range ex: [2000-01 TO 2017-07-31]:")
+    start= raw_input("Enter the start date with range ex: [2000-01 TO 2017-07-31]:")
     main(domain,start,censys_id,censys_secret)
